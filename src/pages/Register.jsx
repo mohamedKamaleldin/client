@@ -33,7 +33,7 @@ const RegisterPage = () => {
           />
           <input type='password' placeholder='password' value={password} onChange={(ev) => setPassword(ev.target.value)}
           />
-          <button type='submit' className='primary'> Register </button>
+          <button type='submit' className='primary hover:bg-[#af2d47]'> Register </button>
           <div className='text-center py-2 text-gray-500'>  Already a member?{' '} <Link className='hover:underline text-black' to={'/login'}> Login now </Link>
           </div>
         </form>

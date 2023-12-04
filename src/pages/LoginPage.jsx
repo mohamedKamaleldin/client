@@ -30,7 +30,7 @@ const LoginPage = () => {
         <form className='max-w-md max-auto' onSubmit={handleLoginSubmit}>
           <input type="email" placeholder='Your@email.com' value={email} onChange={ev => setEmail(ev.target.value)}   />
           <input type="password" placeholder='password' value={password} onChange={ev => setPassword(ev.target.value)} />
-          <button className="primary">Login</button>
+          <button className="primary hover:bg-[#af2d47]">Login</button>
           <div className="text-center py-2 text-gray-500">
             Don't have an account yet? <Link className='hover:underline text-black' to={'/register'}>Register now</Link>
           </div>
